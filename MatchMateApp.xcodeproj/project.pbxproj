@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFF4D202D96EC9F00AA5A0A /* MatchMateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */; };
+		CEFF4D222D96EC9F00AA5A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */; };
+		CEFF4D242D96ECA000AA5A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */; };
+		CEFF4D272D96ECA000AA5A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF4D262D96ECA000AA5A0A /* Preview Assets.xcassets */; };
+		CEFF4D292D96ECA000AA5A0A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D282D96ECA000AA5A0A /* Persistence.swift */; };
+		CEFF4D2C2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */; };
+		CEFF4D362D96ECA000AA5A0A /* MatchMateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D352D96ECA000AA5A0A /* MatchMateAppTests.swift */; };
+		CEFF4D402D96ECA100AA5A0A /* MatchMateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D3F2D96ECA100AA5A0A /* MatchMateAppUITests.swift */; };
+		CEFF4D422D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D412D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFF4D322D96ECA000AA5A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF4D142D96EC9F00AA5A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF4D1B2D96EC9F00AA5A0A;
+			remoteInfo = MatchMateApp;
+		};
+		CEFF4D3C2D96ECA000AA5A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF4D142D96EC9F00AA5A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF4D1B2D96EC9F00AA5A0A;
+			remoteInfo = MatchMateApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFF4D1C2D96EC9F00AA5A0A /* MatchMateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchMateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppApp.swift; sourceTree = "<group>"; };
+		CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFF4D262D96ECA000AA5A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEFF4D282D96ECA000AA5A0A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchMateApp.xcdatamodel; sourceTree = "<group>"; };
+		CEFF4D312D96ECA000AA5A0A /* MatchMateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchMateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF4D352D96ECA000AA5A0A /* MatchMateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppTests.swift; sourceTree = "<group>"; };
+		CEFF4D3B2D96ECA000AA5A0A /* MatchMateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchMateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF4D3F2D96ECA100AA5A0A /* MatchMateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppUITests.swift; sourceTree = "<group>"; };
+		CEFF4D412D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFF4D192D96EC9F00AA5A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D2E2D96ECA000AA5A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D382D96ECA000AA5A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFF4D132D96EC9F00AA5A0A = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D1E2D96EC9F00AA5A0A /* MatchMateApp */,
+				CEFF4D342D96ECA000AA5A0A /* MatchMateAppTests */,
+				CEFF4D3E2D96ECA100AA5A0A /* MatchMateAppUITests */,
+				CEFF4D1D2D96EC9F00AA5A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFF4D1D2D96EC9F00AA5A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D1C2D96EC9F00AA5A0A /* MatchMateApp.app */,
+				CEFF4D312D96ECA000AA5A0A /* MatchMateAppTests.xctest */,
+				CEFF4D3B2D96ECA000AA5A0A /* MatchMateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFF4D1E2D96EC9F00AA5A0A /* MatchMateApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */,
+				CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */,
+				CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */,
+				CEFF4D282D96ECA000AA5A0A /* Persistence.swift */,
+				CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */,
+				CEFF4D252D96ECA000AA5A0A /* Preview Content */,
+			);
+			path = MatchMateApp;
+			sourceTree = "<group>";
+		};
+		CEFF4D252D96ECA000AA5A0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D262D96ECA000AA5A0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEFF4D342D96ECA000AA5A0A /* MatchMateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D352D96ECA000AA5A0A /* MatchMateAppTests.swift */,
+			);
+			path = MatchMateAppTests;
+			sourceTree = "<group>";
+		};
+		CEFF4D3E2D96ECA100AA5A0A /* MatchMateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D3F2D96ECA100AA5A0A /* MatchMateAppUITests.swift */,
+				CEFF4D412D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift */,
+			);
+			path = MatchMateAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFF4D1B2D96EC9F00AA5A0A /* MatchMateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF4D452D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateApp" */;
+			buildPhases = (
+				CEFF4D182D96EC9F00AA5A0A /* Sources */,
+				CEFF4D192D96EC9F00AA5A0A /* Frameworks */,
+				CEFF4D1A2D96EC9F00AA5A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchMateApp;
+			productName = MatchMateApp;
+			productReference = CEFF4D1C2D96EC9F00AA5A0A /* MatchMateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFF4D302D96ECA000AA5A0A /* MatchMateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF4D482D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateAppTests" */;
+			buildPhases = (
+				CEFF4D2D2D96ECA000AA5A0A /* Sources */,
+				CEFF4D2E2D96ECA000AA5A0A /* Frameworks */,
+				CEFF4D2F2D96ECA000AA5A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF4D332D96ECA000AA5A0A /* PBXTargetDependency */,
+			);
+			name = MatchMateAppTests;
+			productName = MatchMateAppTests;
+			productReference = CEFF4D312D96ECA000AA5A0A /* MatchMateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFF4D3A2D96ECA000AA5A0A /* MatchMateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF4D4B2D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateAppUITests" */;
+			buildPhases = (
+				CEFF4D372D96ECA000AA5A0A /* Sources */,
+				CEFF4D382D96ECA000AA5A0A /* Frameworks */,
+				CEFF4D392D96ECA000AA5A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF4D3D2D96ECA000AA5A0A /* PBXTargetDependency */,
+			);
+			name = MatchMateAppUITests;
+			productName = MatchMateAppUITests;
+			productReference = CEFF4D3B2D96ECA000AA5A0A /* MatchMateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFF4D142D96EC9F00AA5A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEFF4D1B2D96EC9F00AA5A0A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEFF4D302D96ECA000AA5A0A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEFF4D1B2D96EC9F00AA5A0A;
+					};
+					CEFF4D3A2D96ECA000AA5A0A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEFF4D1B2D96EC9F00AA5A0A;
+					};
+				};
+			};
+			buildConfigurationList = CEFF4D172D96EC9F00AA5A0A /* Build configuration list for PBXProject "MatchMateApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFF4D132D96EC9F00AA5A0A;
+			productRefGroup = CEFF4D1D2D96EC9F00AA5A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFF4D1B2D96EC9F00AA5A0A /* MatchMateApp */,
+				CEFF4D302D96ECA000AA5A0A /* MatchMateAppTests */,
+				CEFF4D3A2D96ECA000AA5A0A /* MatchMateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFF4D1A2D96EC9F00AA5A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF4D272D96ECA000AA5A0A /* Preview Assets.xcassets in Resources */,
+				CEFF4D242D96ECA000AA5A0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D2F2D96ECA000AA5A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D392D96ECA000AA5A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFF4D182D96EC9F00AA5A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF4D292D96ECA000AA5A0A /* Persistence.swift in Sources */,
+				CEFF4D222D96EC9F00AA5A0A /* ContentView.swift in Sources */,
+				CEFF4D2C2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld in Sources */,
+				CEFF4D202D96EC9F00AA5A0A /* MatchMateAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D2D2D96ECA000AA5A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF4D362D96ECA000AA5A0A /* MatchMateAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4D372D96ECA000AA5A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF4D402D96ECA100AA5A0A /* MatchMateAppUITests.swift in Sources */,
+				CEFF4D422D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFF4D332D96ECA000AA5A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF4D1B2D96EC9F00AA5A0A /* MatchMateApp */;
+			targetProxy = CEFF4D322D96ECA000AA5A0A /* PBXContainerItemProxy */;
+		};
+		CEFF4D3D2D96ECA000AA5A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF4D1B2D96EC9F00AA5A0A /* MatchMateApp */;
+			targetProxy = CEFF4D3C2D96ECA000AA5A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEFF4D432D96ECA100AA5A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFF4D442D96ECA100AA5A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFF4D462D96ECA100AA5A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchMateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFF4D472D96ECA100AA5A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchMateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFF4D492D96ECA100AA5A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchMateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatchMateApp";
+			};
+			name = Debug;
+		};
+		CEFF4D4A2D96ECA100AA5A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchMateApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MatchMateApp";
+			};
+			name = Release;
+		};
+		CEFF4D4C2D96ECA100AA5A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchMateApp;
+			};
+			name = Debug;
+		};
+		CEFF4D4D2D96ECA100AA5A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3S6Y5RZP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MatchMateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchMateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFF4D172D96EC9F00AA5A0A /* Build configuration list for PBXProject "MatchMateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF4D432D96ECA100AA5A0A /* Debug */,
+				CEFF4D442D96ECA100AA5A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF4D452D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF4D462D96ECA100AA5A0A /* Debug */,
+				CEFF4D472D96ECA100AA5A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF4D482D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF4D492D96ECA100AA5A0A /* Debug */,
+				CEFF4D4A2D96ECA100AA5A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF4D4B2D96ECA100AA5A0A /* Build configuration list for PBXNativeTarget "MatchMateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF4D4C2D96ECA100AA5A0A /* Debug */,
+				CEFF4D4D2D96ECA100AA5A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */,
+			);
+			currentVersion = CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */;
+			path = MatchMateApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFF4D142D96EC9F00AA5A0A /* Project object */;
+}
