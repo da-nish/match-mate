@@ -21,6 +21,14 @@
       - View
       - ViewModel
 ```
+### Technologies Used
+
+- SwiftUI
+- MVVM Architecture
+- Core Data
+- URLSession
+- SDWebImage
+
 
 ### Video
 
