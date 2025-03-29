@@ -2,7 +2,7 @@
 //  MatchCardItem.swift
 //  MatchMateApp
 //
-//  Created by PropertyShare on 28/03/25.
+//  Created by Danish khan on 28/03/25.
 //
 
 import SwiftUI
@@ -38,35 +38,6 @@ struct MatchCardItem: View {
                                 }
                                 .indicator(.activity)
                                 .transition(.fade(duration: 0.5))
-                                
-//                                .frame(width: screenWidth/3, height: screenWidth/3, alignment: .center)
-//
-//                AsyncImage(url: URL(string: item.image)) { phase in
-//                    switch phase {
-//                    case .empty:
-//                        ProgressView()
-//                            .foregroundColor(.black)
-//                            .frame(maxWidth: .infinity)
-//
-//                    case .success(let image):
-//                        image
-//                            .resizable()
-//                            .scaledToFit()
-//                            .frame(maxWidth: .infinity)
-//                            .clipShape(RoundedRectangle(cornerRadius: 10))
-//                    case .failure:
-//                        Image(systemName: "exclamationmark.triangle")
-//                        
-//                    @unknown default:
-//                        EmptyView()
-//                            .foregroundColor(.blue)
-//                    }
-//                }
-//                .frame(height: 120)
-                
-                
-                
-
                 LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom).ignoresSafeArea()
                     .frame(height: 60)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -92,19 +63,25 @@ struct MatchCardItem: View {
             HStack(spacing: 10) {
                 if item.matchStatus == .accepted{
                     AcceptButtonView(title: "Accepted")
+                        .transition(.flipFromRight)
                 }
                 else if item.matchStatus == .rejected{
                     RejectButtonView(title: "Rejected")
+                        .transition(.flipFromLeft)
                 }
                 else {
                     
                     Button(
-                        action: { action(.rejected) }
+                        action: {
+                            withAnimation(.easeInOut(duration: 0.3)) {action(.rejected)}
+                        }
                     ){
                         RejectButtonView(title: "Reject")
                     }
                     Button(
-                        action: { action(.accepted) }
+                        action: {
+                            withAnimation(.easeInOut(duration: 0.3)) {action(.accepted)}
+                        }
                     ){
                         AcceptButtonView(title: "Accept")
                     }
@@ -126,12 +103,16 @@ struct MatchCardItem: View {
         init(title: String) {
             self.title = title
         }
+        
         var body: some View {
-            Text(title)
+            HStack {
+                Image(systemName: "hand.thumbsdown.fill")
+                Text(title)
+            }
                 .frame(maxWidth: .infinity) // Takes up all available space
                 .padding()
-                .background(Color.secondary.gradient)
-                .foregroundColor(.white)
+                .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.898))
+                .foregroundColor(.black)
                 .cornerRadius(8)
         }
     }

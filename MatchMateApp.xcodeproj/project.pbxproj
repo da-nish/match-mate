@@ -181,6 +181,16 @@
 			path = Asset;
 			sourceTree = "<group>";
 		};
+		CE30AC682D98080E008E613E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AFEF62D9713B40047DD16 /* Extension */,
+				CE0AFEF32D9713150047DD16 /* Util */,
+				CE0AFEEC2D96F0660047DD16 /* Dto */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		CEFF4D132D96EC9F00AA5A0A = {
 			isa = PBXGroup;
 			children = (
@@ -205,9 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */,
-				CE0AFEF62D9713B40047DD16 /* Extension */,
-				CE0AFEF32D9713150047DD16 /* Util */,
-				CE0AFEEC2D96F0660047DD16 /* Dto */,
+				CE30AC682D98080E008E613E /* Core */,
 				CE0AFEE92D96EF890047DD16 /* Service */,
 				CE0AFEE42D96EF380047DD16 /* Screen */,
 				CE30AC652D97FB63008E613E /* Asset */,
