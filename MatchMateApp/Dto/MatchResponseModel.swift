@@ -47,6 +47,17 @@ struct Dob: Codable {
 enum Gender: String, Codable {
     case female = "female"
     case male = "male"
+    
+    static func getValue(value: Gender) -> String{
+        switch value {
+        case .female:
+            return "female"
+        case .male:
+            return "male"
+        default:
+            return "male"
+        }
+    }
 }
 
 //// MARK: - ID

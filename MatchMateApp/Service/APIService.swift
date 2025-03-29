@@ -35,7 +35,6 @@ class APIService{
                     }
                 }
                 catch let error{
-                    print("Decoding failed with error: \(error)")
                     onError("Something went wrong: \(error.localizedDescription)")
                 }
             }

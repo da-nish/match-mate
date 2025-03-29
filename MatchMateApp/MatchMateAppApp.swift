@@ -10,12 +10,9 @@ import SwiftUI
 @main
 struct MatchMateAppApp: App {
 //    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             MatchScreenView()
-//            ContentView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

@@ -12,12 +12,17 @@
 		CE0AFEEB2D96EF9D0047DD16 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEEA2D96EF9D0047DD16 /* APIService.swift */; };
 		CE0AFEEE2D96F0750047DD16 /* MatchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEED2D96F0750047DD16 /* MatchResponseModel.swift */; };
 		CE0AFEF02D96F42E0047DD16 /* MatchCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEEF2D96F42E0047DD16 /* MatchCardItem.swift */; };
+		CE0AFEF22D97126E0047DD16 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEF12D97126E0047DD16 /* CoreDataService.swift */; };
+		CE0AFEF52D97132B0047DD16 /* CoreDataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEF42D97132B0047DD16 /* CoreDataUtil.swift */; };
+		CE0AFEF82D9713CD0047DD16 /* DeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0AFEF72D9713CD0047DD16 /* DeviceExtension.swift */; };
+		CE0AFEFB2D9720D60047DD16 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE0AFEFA2D9720D60047DD16 /* SDWebImageSwiftUI */; };
+		CE30AC582D974200008E613E /* ModelTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE30AC562D974200008E613E /* ModelTest.xcdatamodeld */; };
+		CE30AC5E2D97BE16008E613E /* MatchMateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30AC5D2D97BE16008E613E /* MatchMateModel.swift */; };
+		CE30AC602D97F95F008E613E /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30AC5F2D97F95F008E613E /* NetworkUtil.swift */; };
 		CEFF4D202D96EC9F00AA5A0A /* MatchMateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */; };
-		CEFF4D222D96EC9F00AA5A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */; };
 		CEFF4D242D96ECA000AA5A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */; };
 		CEFF4D272D96ECA000AA5A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF4D262D96ECA000AA5A0A /* Preview Assets.xcassets */; };
 		CEFF4D292D96ECA000AA5A0A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D282D96ECA000AA5A0A /* Persistence.swift */; };
-		CEFF4D2C2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */; };
 		CEFF4D362D96ECA000AA5A0A /* MatchMateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D352D96ECA000AA5A0A /* MatchMateAppTests.swift */; };
 		CEFF4D402D96ECA100AA5A0A /* MatchMateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D3F2D96ECA100AA5A0A /* MatchMateAppUITests.swift */; };
 		CEFF4D422D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4D412D96ECA100AA5A0A /* MatchMateAppUITestsLaunchTests.swift */; };
@@ -46,13 +51,17 @@
 		CE0AFEEA2D96EF9D0047DD16 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		CE0AFEED2D96F0750047DD16 /* MatchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResponseModel.swift; sourceTree = "<group>"; };
 		CE0AFEEF2D96F42E0047DD16 /* MatchCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCardItem.swift; sourceTree = "<group>"; };
+		CE0AFEF12D97126E0047DD16 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		CE0AFEF42D97132B0047DD16 /* CoreDataUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUtil.swift; sourceTree = "<group>"; };
+		CE0AFEF72D9713CD0047DD16 /* DeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceExtension.swift; sourceTree = "<group>"; };
+		CE30AC572D974200008E613E /* ModelTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelTest.xcdatamodel; sourceTree = "<group>"; };
+		CE30AC5D2D97BE16008E613E /* MatchMateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateModel.swift; sourceTree = "<group>"; };
+		CE30AC5F2D97F95F008E613E /* NetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
 		CEFF4D1C2D96EC9F00AA5A0A /* MatchMateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchMateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppApp.swift; sourceTree = "<group>"; };
-		CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFF4D262D96ECA000AA5A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEFF4D282D96ECA000AA5A0A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchMateApp.xcdatamodel; sourceTree = "<group>"; };
 		CEFF4D312D96ECA000AA5A0A /* MatchMateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchMateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF4D352D96ECA000AA5A0A /* MatchMateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchMateAppTests.swift; sourceTree = "<group>"; };
 		CEFF4D3B2D96ECA000AA5A0A /* MatchMateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchMateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0AFEFB2D9720D60047DD16 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +98,7 @@
 		CE0AFEE42D96EF380047DD16 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				CE0AFEE52D96EF4B0047DD16 /* MatchScreenView.swift */,
-				CE0AFEE72D96EF720047DD16 /* MatchScreenViewModel.swift */,
-				CE0AFEEF2D96F42E0047DD16 /* MatchCardItem.swift */,
+				CE30AC632D97FAC7008E613E /* MatchScreen */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -99,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0AFEEA2D96EF9D0047DD16 /* APIService.swift */,
+				CE0AFEF12D97126E0047DD16 /* CoreDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -107,8 +116,69 @@
 			isa = PBXGroup;
 			children = (
 				CE0AFEED2D96F0750047DD16 /* MatchResponseModel.swift */,
+				CE30AC5D2D97BE16008E613E /* MatchMateModel.swift */,
 			);
 			path = Dto;
+			sourceTree = "<group>";
+		};
+		CE0AFEF32D9713150047DD16 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AFEF42D97132B0047DD16 /* CoreDataUtil.swift */,
+				CE30AC5F2D97F95F008E613E /* NetworkUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CE0AFEF62D9713B40047DD16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AFEF72D9713CD0047DD16 /* DeviceExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE30AC612D97FAAA008E613E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AFEE72D96EF720047DD16 /* MatchScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE30AC622D97FABA008E613E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE0AFEE52D96EF4B0047DD16 /* MatchScreenView.swift */,
+				CE0AFEEF2D96F42E0047DD16 /* MatchCardItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE30AC632D97FAC7008E613E /* MatchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE30AC622D97FABA008E613E /* View */,
+				CE30AC612D97FAAA008E613E /* ViewModel */,
+			);
+			path = MatchScreen;
+			sourceTree = "<group>";
+		};
+		CE30AC642D97FB23008E613E /* CoredataSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CE30AC562D974200008E613E /* ModelTest.xcdatamodeld */,
+				CEFF4D282D96ECA000AA5A0A /* Persistence.swift */,
+			);
+			path = CoredataSupport;
+			sourceTree = "<group>";
+		};
+		CE30AC652D97FB63008E613E /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 		CEFF4D132D96EC9F00AA5A0A = {
@@ -134,14 +204,14 @@
 		CEFF4D1E2D96EC9F00AA5A0A /* MatchMateApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */,
+				CE0AFEF62D9713B40047DD16 /* Extension */,
+				CE0AFEF32D9713150047DD16 /* Util */,
 				CE0AFEEC2D96F0660047DD16 /* Dto */,
 				CE0AFEE92D96EF890047DD16 /* Service */,
 				CE0AFEE42D96EF380047DD16 /* Screen */,
-				CEFF4D1F2D96EC9F00AA5A0A /* MatchMateAppApp.swift */,
-				CEFF4D212D96EC9F00AA5A0A /* ContentView.swift */,
-				CEFF4D232D96ECA000AA5A0A /* Assets.xcassets */,
-				CEFF4D282D96ECA000AA5A0A /* Persistence.swift */,
-				CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */,
+				CE30AC652D97FB63008E613E /* Asset */,
+				CE30AC642D97FB23008E613E /* CoredataSupport */,
 				CEFF4D252D96ECA000AA5A0A /* Preview Content */,
 			);
 			path = MatchMateApp;
@@ -188,6 +258,9 @@
 			dependencies = (
 			);
 			name = MatchMateApp;
+			packageProductDependencies = (
+				CE0AFEFA2D9720D60047DD16 /* SDWebImageSwiftUI */,
+			);
 			productName = MatchMateApp;
 			productReference = CEFF4D1C2D96EC9F00AA5A0A /* MatchMateApp.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +333,9 @@
 				Base,
 			);
 			mainGroup = CEFF4D132D96EC9F00AA5A0A;
+			packageReferences = (
+				CE0AFEF92D9720D60047DD16 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = CEFF4D1D2D96EC9F00AA5A0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,13 +380,17 @@
 			files = (
 				CE0AFEEE2D96F0750047DD16 /* MatchResponseModel.swift in Sources */,
 				CE0AFEE82D96EF720047DD16 /* MatchScreenViewModel.swift in Sources */,
+				CE0AFEF22D97126E0047DD16 /* CoreDataService.swift in Sources */,
+				CE30AC582D974200008E613E /* ModelTest.xcdatamodeld in Sources */,
 				CE0AFEEB2D96EF9D0047DD16 /* APIService.swift in Sources */,
 				CE0AFEE62D96EF4B0047DD16 /* MatchScreenView.swift in Sources */,
 				CEFF4D292D96ECA000AA5A0A /* Persistence.swift in Sources */,
-				CEFF4D222D96EC9F00AA5A0A /* ContentView.swift in Sources */,
-				CEFF4D2C2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld in Sources */,
+				CE30AC602D97F95F008E613E /* NetworkUtil.swift in Sources */,
+				CE30AC5E2D97BE16008E613E /* MatchMateModel.swift in Sources */,
 				CE0AFEF02D96F42E0047DD16 /* MatchCardItem.swift in Sources */,
+				CE0AFEF82D9713CD0047DD16 /* DeviceExtension.swift in Sources */,
 				CEFF4D202D96EC9F00AA5A0A /* MatchMateAppApp.swift in Sources */,
+				CE0AFEF52D97132B0047DD16 /* CoreDataUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,14 +721,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		CE0AFEF92D9720D60047DD16 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE0AFEFA2D9720D60047DD16 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE0AFEF92D9720D60047DD16 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		CEFF4D2A2D96ECA000AA5A0A /* MatchMateApp.xcdatamodeld */ = {
+		CE30AC562D974200008E613E /* ModelTest.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */,
+				CE30AC572D974200008E613E /* ModelTest.xcdatamodel */,
 			);
-			currentVersion = CEFF4D2B2D96ECA000AA5A0A /* MatchMateApp.xcdatamodel */;
-			path = MatchMateApp.xcdatamodeld;
+			currentVersion = CE30AC572D974200008E613E /* ModelTest.xcdatamodel */;
+			path = ModelTest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
